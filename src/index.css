@@ -1,13 +1,79 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+.result-values{
+  width: 400px;
+  border: 3px solid black;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: bisque;
+  color: black;
+  height: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+.feedBack-block{
+  width: 1000px;
+  height: auto;
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left: 250px;
+}
+.btn-back{
+  width: 150px;
+  height: 40px;
+  background-color: blanchedalmond;
+  color: black;
+  font-size: 15px;
+  position: relative;
+  left: 640px;
+  top: 30px;
+}
+.feed-head{
+  width: 400px;
+  background-color: aquamarine;
+  margin-left: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  position: relative;
+  left: 600px;
+}
+.label-design{
+  font-size: 30px;
+  /* background-color: aquamarine; */
+  /* margin:15px */
+  color: brown;
+}
+.input1{
+  background-color: antiquewhite;
+  border-radius: 15px;
+  font-size: 15px;
+  height: 30px;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: burlywood;
+  margin-top: 50px;
+}
+
+
